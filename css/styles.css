@@ -1,0 +1,47 @@
+*{margin:0;
+    padding:0}
+
+.logo {background-color:#59c9a5}
+ul {list-style: none;}
+header {width: 100%;}
+.carousel-item img {height: 300px;gap:30px;padding: 30px;}
+@media (min-width:768px){.carousel-item img{height: 70vh;}}
+@media (min-width: 992px){.carousel-item img{height: 90vh;}}
+@media (min-width:1200px){.carousel-item img{height: 110vh;}}
+h1, h2, h5 {text-align: center;margin: 15px 20px;}
+footer {margin-top: 100px; background-color: #acecd8;padding: 30px;}
+.redessociales a {text-decoration: none; font-size: 40px;}
+.redessociales {text-align: center;}
+nav {background-color: rgb(191, 197, 189)}
+.videos {display:flex;flex-wrap: wrap;justify-content: center;gap:10px}
+.contacto{display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;gap:10px;margin-top: 30px;}
+@media (min-width:768px){.contacto{display:grid;
+        grid-template-columns: repeat(2,1fr);
+        align-items: center;
+        justify-items: center;}
+}
+    .contacto form {display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;}
+.campos {display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;}
+.bot input{border:solid 1px black;
+    width: 200px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: aquamarine;}
+.bot {display:flex;flex-direction: row;flex-wrap: wrap;justify-content: center;}
+iframe {max-width: 100%}
+.card {margin:25px;padding: 15px;}
+.padre-card img {width: 250px;height: 150px;}
+.videos {margin: 0 auto;}
+p {text-align: justify;padding:15px}
+h4 {margin-top: -75px;color:aquamarine;text-align: center;font-size:x-large;font-weight: bold;-webkit-text-stroke: 2px black;}
+
+    
