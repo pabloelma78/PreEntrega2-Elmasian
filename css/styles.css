@@ -2,6 +2,7 @@
     padding:0}
 
 .logo {background-color:#59c9a5}
+.logo img {width: 150px;}
 ul {list-style: none;}
 header {width: 100%;}
 .carousel-item img {height: 300px;gap:30px;padding: 30px;}
@@ -38,8 +39,9 @@ nav {background-color: rgb(191, 197, 189)}
     background-color: aquamarine;}
 .bot {display:flex;flex-direction: row;flex-wrap: wrap;justify-content: center;}
 iframe {max-width: 100%}
-.card {margin:25px;padding: 15px;}
+.card {margin: 25px;padding: 15px;}
 .padre-card img {width: 250px;height: 150px;}
+.padre-card {max-width: 100%;}
 .videos {margin: 0 auto;}
 p {text-align: justify;padding:15px}
 h4 {margin-top: -75px;color:aquamarine;text-align: center;font-size:x-large;font-weight: bold;-webkit-text-stroke: 2px black;}
